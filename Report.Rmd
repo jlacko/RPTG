@@ -1,30 +1,74 @@
 ---
 title: "Reporting example"
-author: "JLA"
-date: "18 července 2017"
+date: "`r format(Sys.time(), '%d.%m.%Y')`"
+
 output: pdf_document
+mainfont: Fetamont
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
-## R Markdown
+#Arakain
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+Slečna závist
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+1. Ta dívka u oltáře,  
+co pohled tvůj teď váže,  
+skrýt závist zkouší  
+za vlastním bohatstvím.  
 
-```{r cars}
-summary(cars)
-```
+2. Má krásu moc i slávu,  
+přesto vidíš, že se trápí,  
+když tvář zakrývá jí závoj  
+tkanej z černejch pavučin.  
+R: Á... Á...  
 
-## Including Plots
 
-You can also embed plots, for example:
+3. Proč přišla takhle zrána  
+a co si žádá u pána,  
+že svíčku drží v dlaních,  
+tiše obchod nabízí.  
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+3. Bože vyslyš moje přání,  
+jak neřekneš svý "ano" mi,   
+tak ďáblu ruku podám,  
+když mi pomoc přislíbí.  
+R.
+
+4. No jen řekni, dám ti to, co chceš,  
+já věřím, ty to dokážeš,  
+slib krví potvrdím,  
+jen dej, ať nikdo nemá víc.  
+
+
+5. Mě pálí, když je kdokoliv  
+s víc štěstím, se vším cokoliv,  
+co zrovna nemám já,  
+radši, ať sama nemám nic.  
+R.
+
+
+6. Teď otáčí se s nevolí,  
+jak ďáblu podpis zabolí,  
+už do rysů jí kreslí  
+vrásky z duše šedivý  
+
+
+7. Pak konečně k nám promluví,  
+skřek havraní tu zakrouží  
+a mezi námi hledá,  
+svoji oběť vybírá.  
+
+
+8. Když ne mě, radši nikomu  
+a slova nejsou k ničemu,  
+to slečna závist vstoupila  
+zas do někoho z nás.  
+
+R. víckrát do ztracena
+
+
+
+
+ 
+ 
