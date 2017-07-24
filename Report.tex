@@ -1,0 +1,24 @@
+\documentclass[a4paper]{article}
+\usepackage[czech]{babel} 
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage{fontspec}
+\usepackage{titling}
+\usepackage[sfdefault]{roboto}
+
+\usepackage[margin=2cm]{geometry}
+
+\begin{document}
+\begin{center}
+$if(title)$
+\textbf{\LARGE $title$}
+$else$
+\textbf{\LARGE Bezejmenný report}
+$endif$
+\noindent\hfil\rule{.8\textwidth}{.25pt}\hfil
+\end{center}
+
+$body$
+
+\end{document} 
