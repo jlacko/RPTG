@@ -9,6 +9,10 @@
 
 \usepackage[margin=2cm]{geometry}
 
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{1em plus 2pt minus 1pt}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+
 \begin{document}
 \begin{center}
 $if(title)$
@@ -16,7 +20,7 @@ $if(title)$
 $else$
 \textbf{\LARGE Bezejmenný report}
 $endif$
-\noindent\hfil\rule{.8\textwidth}{.25pt}\hfil
+\noindent\hfil\rule{.9\textwidth}{.25pt}\hfil
 \end{center}
 
 $body$

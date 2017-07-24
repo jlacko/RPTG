@@ -1,8 +1,13 @@
 ---
-title: "Reporting example"
+title: "Proti Catilinovi řeč první"
 output:
   pdf_document:
     latex_engine: xelatex
     template: Report.tex
 ---
-Žluťoučký kůň úpěl ďábelské ódy.
+Kdy, ó Catilino, hodláš přestat obtěžovat naší trpělivost? Jak dlouho se nám bude tvoje šílenství vysmívat? Kdy už nastane konec tvé bezuzdé drzosti, naparující se okolo jako nyní? Ani noční stráže, umístěné na Palatinu--ani hlídky rozmístěné ve městě--ani poplach mezi lidem a sjednocení všech řádných mužů--ani přijaté opatření ve shromáždění senátu na tomto tak nejsnadněji bránitelném místě--ani pohledy a vzezření zde přítomných ctihodných na tebe neměly žádný vliv? Necítíš, že jsou tvoje plány prozrazeny? Nevidíš, že tvoje spiknutí je již uvězněno a učiněno bezmocným znalostí, kterou každý zde má? Co jsi dělal minulou noc, co noc před tím--kde jsi byl--kdo tam byl, aby se s tebou setkal--jaký plán jsi tam přijal, myslíš snad, že s tím není kterýkoliv z nás seznámen?
+
+Ostuda věku a jeho principů! Senát si je vědom těchto věcí; konzul je vidí a přesto tento muž žije. Žije! Ano a dokonce přijde do senátu. Účastní se omezování veřejné svobody; sleduje a značí si a poznamenává každého z jedinců mezi námi, aby ho zabil. A my, stateční mužové, kterými jsme, myslíme, že konáme naši povinnost vůči republice tím, že se vyhýbáme jeho zuřivým útokům.
+Měl bys, ó Catilino, být již před dlouhou dobou veden rozkazem konzula na popravu. Ta zkáza, kterou proti nám chystáš již dlouho, měla již dávno dopadnout na tvoji hlavu.
+
+Cože? Cožpak jeden z nejskvělejších mužů, Publius Scipio, Pontifex Maximus, nedal jako soukromý občan usmrtit Tiberia Graccha za jen malé napadení ústavy? A budeme my, kteří jsme konzuly, snášet Catilinu, otevřeně toužícího zničit celý svět ohněm a zabíjením? K tomu uvedu starší příklady, jako když Caius Servilius Ahala vlastní rukou zabil Spuria Maelia, plánujícího revoluci ve státě. Byl--kdysi byl v republice takový zvyk, že stateční mužové potlačovali zlovolné občany tvrději než nejhoršího nepřítele. Proto máme rozhodnutí senátu, hrozivý a rozhodný dekret proti tobě, ó Catilino; není to chybou moudrosti republiky ani cti senátu. My, my sami,--říkám to otevřeně,--my konzulové zdržujeme plnění své povinnosti. 
