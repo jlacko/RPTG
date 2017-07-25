@@ -1,25 +1,39 @@
-\documentclass[a4paper]{article}
+\documentclass[twoside]{article}
 \usepackage[czech]{babel} 
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-
+\usepackage{fancyhdr}
 \usepackage{fontspec}
 \usepackage{titling}
-\usepackage[sfdefault]{roboto}
-
-\usepackage[margin=2cm]{geometry}
+\usepackage[sfdefault, light, condensed]{roboto}
+\usepackage[a4paper, 
+            left=2cm,
+            right=2cm,
+            top=2cm,
+            bottom=3cm,
+            footskip=1.25cm]{geometry}
 
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{1em plus 2pt minus 1pt}
 \setlength{\emergencystretch}{3em} % prevent overfull lines
 
+\newcommand{\Nazev}{\Large\$if(title)$ {$title$} $else$ {Bezejmenný report} $endif$}
+\newcommand{\Paticka}{$if(version)$ {$version$} $endif$ $if(date)$ {($date$)} $endif$}
+
+\renewcommand{\baselinestretch}{1.05} % menší, ale platné mezery mezi řádky  
+
+\pagestyle{fancy}
+
 \begin{document}
-\begin{center}
-$if(title)$
-\textbf{\LARGE $title$}
-$else$
-\textbf{\LARGE Bezejmenný report}
-$endif$
+
+\fancyhf{} % sets both header and footer to nothing
+\renewcommand{\headrulewidth}{0pt} % pryč se zbytečnou čárou!
+\fancyfoot[RE,LO]{\small\textit\thepage} % vnější patička - číslo stránky
+\fancyfoot[CE,CO]{} % prostřední patička - prázdná
+\fancyfoot[LE,RO]{\small\textit\Paticka} % vnitřní patička - verze a datum v závorce
+
+\begin{center} % titulek s podtržítkem
+
+\textbf{\robotoslab\Nazev}
+
 \noindent\hfil\rule{.9\textwidth}{.25pt}\hfil
 \end{center}
 
