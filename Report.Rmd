@@ -14,6 +14,10 @@ Kdy, ó Catilino, hodláš přestat obtěžovat naší trpělivost? Jak dlouho s
 Ostuda věku a jeho principů! Senát si je vědom těchto věcí; konzul je vidí a přesto tento muž žije. Žije! Ano a dokonce přijde do senátu. Účastní se omezování veřejné svobody; sleduje a značí si a poznamenává každého z jedinců mezi námi, aby ho zabil. A my, stateční mužové, kterými jsme, myslíme, že konáme naši povinnost vůči republice tím, že se vyhýbáme jeho zuřivým útokům.
 Měl bys, ó Catilino, být již před dlouhou dobou veden rozkazem konzula na popravu. Ta zkáza, kterou proti nám chystáš již dlouho, měla již dávno dopadnout na tvoji hlavu.
 
+```{r echo=FALSE, fig.align="center"}
+plot(rnorm(10))
+```
+
 Cože? Cožpak jeden z nejskvělejších mužů, Publius Scipio, Pontifex Maximus, nedal jako soukromý občan usmrtit Tiberia Graccha za jen malé napadení ústavy? A budeme my, kteří jsme konzuly, snášet Catilinu, otevřeně toužícího zničit celý svět ohněm a zabíjením? K tomu uvedu starší příklady, jako když Caius Servilius Ahala vlastní rukou zabil Spuria Maelia, plánujícího revoluci ve státě. Byl - kdysi byl v republice takový zvyk, že stateční mužové potlačovali zlovolné občany tvrději než nejhoršího nepřítele. Proto máme rozhodnutí senátu, hrozivý a rozhodný dekret proti tobě, ó Catilino; není to chybou moudrosti republiky ani cti senátu. My, my sami, - říkám to otevřeně, - my konzulové zdržujeme plnění své povinnosti. 
 
 Senát jednou vydal dekret, aby se konzul Lucius Optimus postaral, aby republika neutrpěla žádnou škodu. Neuběhla ani jedna noc. Na základě pouhého podezření z neodpovídajícího chování byl zabit Caius Gracchus, muž jehož rodina měla tu nejskvělejší pověst po mnoho generací. Byl zabit Marcus Fulvius v hodnosti konzula a všechny jeho děti. Podobným dekretem byla bezpečnost republiky svěřena konzulům Caiu Mariovi a Luciu Valeriovi.
