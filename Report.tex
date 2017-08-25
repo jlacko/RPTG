@@ -1,9 +1,9 @@
-\documentclass[twoside]{article}
+\documentclass[twoside]{report}
 \usepackage[czech]{babel} 
 \usepackage{fancyhdr}
 \usepackage{fontspec}
 \usepackage{titling}
-\usepackage[sfdefault, light]{roboto}
+\usepackage[sfdefault]{roboto}
 \usepackage[a4paper, 
             left=2cm,
             right=2cm,
@@ -22,6 +22,10 @@
 
 \pagestyle{fancy}
 
+\makeatletter % bez číslování nadpisů (sekcí)
+\renewcommand{\@seccntformat}[1]{}
+\makeatother
+
 \begin{document}
 
 \fancyhf{} % sets both header and footer to nothing
@@ -32,9 +36,9 @@
 
 \begin{center} % titulek s podtržítkem
 
-\textbf{\robotoslab\Nazev}
+\textbf{\Nazev}
 
-\noindent\hfil\rule{.9\textwidth}{.25pt}\hfil
+\noindent\hfil\rule{.8\textwidth}{.25pt}\hfil
 \end{center}
 
 $body$
