@@ -1,5 +1,4 @@
 ---
-title:   "Příklad reportu"
 version: "7a před MŽB"
 date:    "4.4.1976"
 output:
