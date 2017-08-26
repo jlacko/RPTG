@@ -24,9 +24,11 @@ Senát jednou vydal dekret, aby se konzul Lucius Optimus postaral, aby republika
 
 Cožpak se pomsta republiky, cožpak se poprava Lucia Saturnina, tribuna lidu, a Caia Servilia, praetora, neuskutečnila se zpožděním jednoho jediného dne? Ale my jsme po těchto 20 dnů nechávali ostří autority senátu ztupět jak bylo. Protože my máme k dispozici podobný dekret senátu, ale uchováváme jej uzamčený na jeho místě--schovaný, mohu říci, v rukávu; a v souladu s tímto výnosem bys mohl být, ó Catilino, popraven v okamžitě. Žiješ,--a žiješ, ne stranou, ale vytrváváš ve své drzosti.
 Přeji si, ó ctihodní otcové, abych byl milosrdný; nepřeji si vypadat nedbalý uprostřed takového nebezpečí státu; ale sám se teď obviňuji z nedbalosti a trestuhodné nečinnosti. 
+
 ```{r echo=FALSE, fig.align="center"}
 plot(pressure)
 ```
+
 V Itálii se nachází tábor, u přístupu do Etrurie, který je nepřátelský vůči republice, počet nepřátel vzrůstá každý den a přesto velitele toho tábora, vůdce těchto nepřátel, vidíme uvnitř hradeb--ano, a dokonce v senátu,--plánujícího každý den nějaké vnitřní zranění republice. Kdybych, ó Catilino, nyní nařídil tvoje uvěznění, tvoji smrt, musel bych se bát méně toho, že by všichni dobří mužové řekli, že jsem jednal pomalu, než že by kterýkoliv z nich potvrdil, že jsem jednal krutě. Ale já neprovedl to, co mělo být provedeno již před dlouhou dobou, mám proto velmi dobrý důvod; nechám tě usmrtit až tehdy, až nebude možné najít jedinou osobu tak bezbožnou, tak opuštěnou, takovou jako jsi ty. Pak to bude provedeno řádně.
 
 Pokud bude žít jen jedna osoba, která se může opovážit tě hájit, budeš ještě žít; ale budeš žít tak jako nyní, obklopen mými mnohými a spolehlivými strážemi, takže nebudeš moci zvednout jediný prst proti republice: mnoho očí a uší tě bude stále pozorovat a střežit, stejně jako činily doposud ačkoliv ty je nepostřehneš. Protože co zde, ó Catilino, můžeš ještě očekávat, jestliže noc není schopna zakrýt tvoje hanebné schůzky v temnotě a jestliže ani soukromé domy neudrží hlas tvého spiknutí ve svých zdech,--jestliže je všechno pozorováno a odhaleno? Změň názor: věř mi: zapomeň na zabíjení a požár, o kterém přemýšlíš. Jsi obklíčen ze všech stran; všechny plány jsou nám jasnější dne; dovol mi, abych ti je připomněl. 
