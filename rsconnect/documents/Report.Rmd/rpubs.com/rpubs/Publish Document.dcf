@@ -1,0 +1,10 @@
+name: Publish Document
+title:
+username:
+account: rpubs
+server: rpubs.com
+hostUrl: rpubs.com
+appId: https://api.rpubs.com/api/v1/document/302417/16a93a8fe23f4309b37785be3b8e21cb
+bundleId: https://api.rpubs.com/api/v1/document/302417/16a93a8fe23f4309b37785be3b8e21cb
+url: http://rpubs.com/jindra/302417
+when: 1503918805.6204
