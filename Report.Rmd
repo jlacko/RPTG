@@ -1,6 +1,6 @@
 ---
 title: "Proti Catilinovi řeč první"
-# version: "7a před MŽB"
+version: "7a před MŽB"
 date:    "4.4.1976"
 output:
   pdf_document:
