@@ -4,7 +4,7 @@
 \usepackage{graphicx}
 \usepackage{fontspec}
 \usepackage{titling}
-\usepackage[sfdefault]{roboto}
+\usepackage[sfdefault]{roboto} % Roboto - jde na něj koukat, a funguje ve Windows i Linuxu
 \usepackage[a4paper, 
             left=2cm,
             right=2cm,
@@ -16,8 +16,9 @@
 \setlength{\parskip}{1em plus 2pt minus 1pt}
 \setlength{\emergencystretch}{3em} % prevent overfull lines
 
-\newcommand{\Nazev}{$if(title)$ {$title$} $else$ {Bezejmenný report} $endif$}
-\newcommand{\Paticka}{$if(version)$ {$version$} $endif$ $if(date)$ { $date$} $endif$}
+\newcommand{\Nazev}{$if(title)$ {$title$} $else$ {Bezejmenný report} $endif$} % Název reportu (nebo hláška, že není)
+
+\newcommand{\Paticka}{$if(version)$ {$version$} $endif$ $if(date)$ { $date$} $endif$} % patička - když verze tak verze, když datum tak datum; mezi tím mezera
 
 \renewcommand{\baselinestretch}{1.05} % menší, ale platné mezery mezi řádky  
 
@@ -26,7 +27,6 @@
 \makeatletter % bez číslování nadpisů (sekcí)
 \renewcommand{\@seccntformat}[1]{}
 \makeatother
-
 
 \addto\captionsczech{\renewcommand{\figurename}{Obr.}} % Obrázek je pro děti...
 
@@ -40,12 +40,10 @@
 \fancyfoot[RE,LO]{\footnotesize\textit\Paticka} % vnitřní patička - verze a datum v závorce
 
 \begin{center} % titulek s podtržítkem
-
 \fontseries{bx}{\LARGE\Nazev}
-
-\noindent\hfil\rule{.8\textwidth}{.25pt}\hfil
+\noindent\hfil\rule{.8\textwidth}{.25pt}\hfil % podtržení pod titulkem, ne přes celou stranu a ne moc tlusté
 \end{center}
 
-$body$
+$body$ % vlastní text z Markdownu
 
 \end{document} 
