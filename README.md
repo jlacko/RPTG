@@ -11,6 +11,6 @@ I have therefore compiled a simple r markdown template, together with an accompa
 ``` yaml
 version: " SHA: `r system('git rev-parse --short=7 HEAD', intern=TRUE)`" 
 ```  
-![footer image](page footer.PNG)
+![](footer.png)
 
 As I needed a text with Czech accents the placeholer "report" is not the usual *Lorem ipsum*, but Czech translation of Cicero's first Catiline oration.
