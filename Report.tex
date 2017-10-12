@@ -26,7 +26,9 @@
 
 \newcommand{\Paticka}{$if(version)$ {$version$} $endif$ $if(date)$ { $date$} $endif$} % patička - když verze tak verze, když datum tak datum; mezi tím mezera
 
-\renewcommand{\baselinestretch}{1.05} % menší, ale platné mezery mezi řádky  
+\renewcommand{\baselinestretch}{1.05} % menší, ale platné mezery mezi řádky 
+
+\providecommand{\tightlist}{\setlength{\parskip}{0pt}} % definovat \tightlist, aby pandoc nepadal...
 
 \pagestyle{fancy}
 
