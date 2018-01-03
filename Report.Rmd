@@ -1,6 +1,7 @@
 ---
-title: "Proti Catilinovi řeč první"
-version: " SHA: `r system('git rev-parse --short=7 HEAD', intern=TRUE)`"
+title: "Oratio in Catilinam Prima in Senatu Habita"
+project: "Sample Report"
+version: "`r system('git rev-parse --short=7 HEAD', intern=TRUE)`"
 date:    ""
 output:
   pdf_document:
