@@ -1,8 +1,8 @@
 ---
 title: "Oratio in Catilinam Prima in Senatu Habita"
-project: "Sample Report"
+project: "`r basename(system('git rev-parse --show-toplevel', intern=TRUE))`"
 version: "`r system('git rev-parse --short=7 HEAD', intern=TRUE)`"
-date:    ""
+date:    "`r format(Sys.time(), '%d-%m-%Y')`"
 output:
   pdf_document:
     latex_engine: xelatex
