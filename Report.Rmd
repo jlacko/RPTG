@@ -15,7 +15,7 @@ Kdy, ó Catilino, hodláš přestat obtěžovat naší trpělivost? Jak dlouho s
 Ostuda věku a jeho principů! Senát si je vědom těchto věcí; konzul je vidí a přesto tento muž žije. Žije! Ano a dokonce přijde do senátu. Účastní se omezování veřejné svobody; sleduje a značí si a poznamenává každého z jedinců mezi námi, aby ho zabil. A my, stateční mužové, kterými jsme, myslíme, že konáme naši povinnost vůči republice tím, že se vyhýbáme jeho zuřivým útokům.
 Měl bys, ó Catilino, být již před dlouhou dobou veden rozkazem konzula na popravu. Ta zkáza, kterou proti nám chystáš již dlouho, měla již dávno dopadnout na tvoji hlavu.
 
-```{r echo=FALSE, fig.align="center"}
+```{r echo=T, eval = T, fig.align="center"}
 plot(rnorm(10))
 ```
 
@@ -26,7 +26,7 @@ Senát jednou vydal dekret, aby se konzul Lucius Optimus postaral, aby republika
 Cožpak se pomsta republiky, cožpak se poprava Lucia Saturnina, tribuna lidu, a Caia Servilia, praetora, neuskutečnila se zpožděním jednoho jediného dne? Ale my jsme po těchto 20 dnů nechávali ostří autority senátu ztupět jak bylo. Protože my máme k dispozici podobný dekret senátu, ale uchováváme jej uzamčený na jeho místě--schovaný, mohu říci, v rukávu; a v souladu s tímto výnosem bys mohl být, ó Catilino, popraven v okamžitě. Žiješ,--a žiješ, ne stranou, ale vytrváváš ve své drzosti.
 Přeji si, ó ctihodní otcové, abych byl milosrdný; nepřeji si vypadat nedbalý uprostřed takového nebezpečí státu; ale sám se teď obviňuji z nedbalosti a trestuhodné nečinnosti. 
 
-```{r echo=FALSE, fig.align="center"}
+```{r echo=T, eval = T, fig.align="center"}
 plot(pressure)
 ```
 
