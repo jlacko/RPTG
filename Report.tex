@@ -27,14 +27,25 @@
 \usepackage{pdflscape}
 \usepackage{tabu}
 \usepackage{threeparttable}
+\usepackage{etoolbox}
 
 $if(highlighting-macros)$
 $highlighting-macros$
 $endif$
 
+\setmonofont[ % font fira code - pro správné ligatury v kódu <- etc...
+  Contextuals={Alternate}
+]{Fira Code}
+
+\makeatletter
+\def\verbatim@nolig@list{}
+\makeatother
+
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{1em plus 2pt minus 1pt}
 \setlength{\emergencystretch}{3em} % prevent overfull lines
+
+\patchcmd{\figure}{\normalsize}{\normalsize\centering}{}{} % vycentrovaný obrázek
 
 \newcommand{\Nazev}{$if(title)$ {$title$} $else$ {Bezejmenný report} $endif$} % Název reportu (nebo hláška, že není)
 
