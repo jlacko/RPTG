@@ -26,11 +26,10 @@ I have therefore compiled a simple r markdown template, together with an accompa
 * My reports often take a life of their own once out of my hands; to improve version control I have created 'project', 'version' and 'date' fields in the front matter of my report, together with corresponding code in my *Report.tex* template which places the project name, short form SHA of the last commit and system date in the left hand footer of each page (on the right hand side is page number).  
 This way I can be certain at which iteration of my analysis a report was generated. I found this information valuable for intermediary reports, for final version it is easily removed.
 
-
 ```r
 project: "`r basename(system('git rev-parse --show-toplevel', intern=TRUE))`"
 version: "`r system('git rev-parse --short=7 HEAD', intern=TRUE)`"
-date:    "`r format(Sys.time(), '%d-%m-%Y')`"
+date:    "`r format(Sys.time(), '%Y-%m-%d')`"
 ```  
 ![](footer.png)
 
